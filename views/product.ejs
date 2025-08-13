@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Product Details</title>
+  <style>
+    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f4f4f9; color: #333; margin: 2em; line-height: 1.6; }
+    h1 { color: #5a5a8a; border-bottom: 2px solid #ddd; padding-bottom: 0.5em; }
+    p { font-size: 1.1em; margin-bottom: 1em; }
+    strong { color: #333; }
+  </style>
+</head>
+<body>
+  <h1><%= product.name %></h1>
+  <p><strong>Price:</strong> $<%= product.price %></p>
+  <p><strong>Description:</strong> <%= product.description %></p>
+</body>
+</html>
